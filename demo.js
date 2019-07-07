@@ -1,7 +1,7 @@
 var map = L.map('map').setView([39.9897471840457, -75.13893127441406], 11)
 
 // Add basemap
-L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+L.tileLayer('http://a.tile.stamen.com/toner/${z}/${x}/${y}.png', {
   maxZoom: 18,
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map)
