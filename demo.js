@@ -7,7 +7,7 @@ L.tileLayer('http://maps.stamen.com/m2i/image/20190707/toner_M4eulhcxuCo', {
 }).addTo(map)
 
 // Add GeoJSON
-$.getJSON('https://prathamgeojson.s3.ap-south-1.amazonaws.com/gadm36_IND.json', function (geojson) {
+$.getJSON('https://raw.githubusercontent.com/prathamApp/PrathamNetwork/master/gadm36_IND.json', function (geojson) {
   L.choropleth(geojson, {
     valueProperty: 'incidents',
     scale: ['white', 'red'],
