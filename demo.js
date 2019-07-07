@@ -1,4 +1,4 @@
-var map = L.map('map').setView([39.9897471840457, -75.13893127441406], 11)
+var map = L.map('map').setView([20.59, 78.96], 5)
 
 // Add basemap
 L.tileLayer('http://a.tile.stamen.com/toner/${z}/${x}/${y}.png', {
